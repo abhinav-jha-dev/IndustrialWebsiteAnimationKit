@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    var base_url = window.location.origin;
+    var base_url = window.location;
     $("#shipbtn").click(function () {
         window.location.href = base_url + "mithap/ship.html";
     });
